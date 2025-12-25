@@ -47,13 +47,13 @@ export default function NavBar() {
             <input
               type="text"
               className="
-                w-full ps-5 pe-3 py-3 pr-8
+                w-56 ps-5 pe-3 py-3 pr-8
                 bg-neutral-secondary-medium
                 text-heading text-sm
                 placeholder:text-body
-                transition-discrete duration-600
+                transition-all duration-600
                 rounded-xl focus:bg-white
-                focus:border-gray-500 focus:ring-0 focus:ring-gray-500 focus:outline-none focus:w-sm
+                focus:border-gray-500 focus:ring-0 focus:ring-gray-500 focus:outline-none ease-in-out focus:w-sm
               "
               placeholder="여기에 검색하세요!"
             />
@@ -114,11 +114,9 @@ export default function NavBar() {
               type="text"
               className="
                 w-full ps-5 pe-3 py-3 pr-8
-                bg-neutral-secondary-medium
                 text-heading text-sm
                 placeholder:text-body
-                transition-discrete duration-600
-                rounded-xl focus:bg-white
+                rounded-xl
                 focus:border-gray-500 focus:ring-1 focus:ring-gray-500 focus:outline-none
               "
               placeholder="여기에 검색하세요!"
