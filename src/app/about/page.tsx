@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   description: 'About 페이지입니다.',
 };
 
-export default function aboutPage() {
+export default function AboutPage() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center px-4 md:px-8">
       <section className="text-center mb-12">
